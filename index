@@ -42,7 +42,7 @@
             <tbody>
                 <tr>
                     <td class="tabla-celda font-bold w-[35%] sm:w-[30%]">Certificado N.:</td>
-                    <td class="tabla-celda break-words">ARG-01-0000054123456-20240917-<br class="hidden sm:block">20310918-AND-185</td>
+                    <td class="tabla-celda break-words">ARG-01-0000054123456-20230517-<br class="hidden sm:block">20330517-AND-185</td>
                 </tr>
                 <tr>
                     <td class="tabla-celda font-bold">Pais:</td>
