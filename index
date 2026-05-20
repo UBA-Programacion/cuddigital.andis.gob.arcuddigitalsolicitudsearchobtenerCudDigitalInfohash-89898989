@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del Certificado</title>
+    <!-- Incluimos Tailwind CSS para los estilos y la responsividad -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilos base para acercar la tipografía al diseño original */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #ffffff;
+        }
+        
+        /* Ajuste específico para las celdas de la tabla para igualar el original */
+        .tabla-celda {
+            border: 1px solid #777777;
+            padding: 4px 6px;
+            font-size: 15px;
+            color: #333333;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body class="flex justify-center p-4 sm:p-10 min-h-screen">
+
+    <!-- Contenedor principal tipo tarjeta -->
+    <div class="w-full max-w-[620px] bg-white border border-gray-300 p-6 sm:p-8 shadow-sm h-min">
+        
+        <!-- Encabezado con Logo y Texto -->
+        <div class="flex items-center mb-6">
+            <!-- Logo desde la imagen provista -->
+            <img src="image_93ef3a.png" alt="" class="h-[60px] sm:h-[75px] w-auto object-contain">
+        </div>
+
+        <!-- Título -->
+        <h1 class="text-[28px] sm:text-[34px] text-[#333333] mb-4">Datos del Certificado</h1>
+
+        <!-- Tabla de Datos -->
+        <table class="w-full border-collapse border border-[#777777]">
+            <tbody>
+                <tr>
+                    <td class="tabla-celda font-bold w-[35%] sm:w-[30%]">Certificado N.:</td>
+                    <td class="tabla-celda break-words">ARG-01-0000054123456-20240917-<br class="hidden sm:block">20310918-AND-185</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Pais:</td>
+                    <td class="tabla-celda">ARGENTINA</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Tipo Doc:</td>
+                    <td class="tabla-celda">D.N.I. - M -</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Número:</td>
+                    <td class="tabla-celda">21726473</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Fecha vigencia<br>desde:</td>
+                    <td class="tabla-celda">17/09/2023</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Fecha vigencia<br>hasta:</td>
+                    <td class="tabla-celda">20/11/2033</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Apellido:</td>
+                    <td class="tabla-celda">Romero</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Nombre:</td>
+                    <td class="tabla-celda">Gustavo Adrián</td>
+                </tr>
+                <tr>
+                    <td class="tabla-celda font-bold">Acompañante:</td>
+                    <td class="tabla-celda">NO</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Enlace Inferior -->
+        <div class="mt-2">
+            <a href="#" class="text-[#337ab7] text-[14px] hover:underline hover:text-[#23527c]">Cartilla de Derechos para Personas con Discapacidad</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
